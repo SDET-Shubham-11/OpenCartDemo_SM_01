@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCart_Suite_Version_01]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.opencart.qa.ExtentReportsListeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="OpenCart_TestPack_Version_01(failed)">
+    <classes>
+      <class name="com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm">
+        <methods>
+          <include name="fillContactUsFormFromFooter"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm -->
+    </classes>
+  </test> <!-- OpenCart_TestPack_Version_01(failed) -->
+</suite> <!-- Failed suite [OpenCart_Suite_Version_01] -->
