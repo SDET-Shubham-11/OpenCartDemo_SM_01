@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-OpenCart_Suite_Version_01" class="navigator-link">
+              <span class="suite-name border-failed">OpenCart_Suite_Version_01</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sdets\AppData\Local\Temp\testng-eclipse--1712964579\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-OpenCart_Suite_Version_01" class="navigator-link ">
+                    <span>C:\Users\sdets\eclipse-workspace\OpenCart\src\main\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-OpenCart_Suite_Version_01" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-OpenCart_Suite_Version_01" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-OpenCart_Suite_Version_01" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-OpenCart_Suite_Version_01" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-OpenCart_Suite_Version_01" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-OpenCart_Suite_Version_01" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OpenCart_Suite_Version_01" class="hide-methods failed suite-OpenCart_Suite_Version_01"> (hide)</a> <!-- hide-methods failed suite-OpenCart_Suite_Version_01 -->
+                      <a href="#" panel-name="suite-OpenCart_Suite_Version_01" class="show-methods failed suite-OpenCart_Suite_Version_01"> (show)</a> <!-- show-methods failed suite-OpenCart_Suite_Version_01 -->
+                    </span>
+                    <div class="method-list-content failed suite-OpenCart_Suite_Version_01">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpenCart_Suite_Version_01" title="com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm" class="method navigator-link" hash-for-method="fillContactUsFormFromFooter">fillContactUsFormFromFooter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OpenCart_Suite_Version_01 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-OpenCart_Suite_Version_01" class="hide-methods passed suite-OpenCart_Suite_Version_01"> (hide)</a> <!-- hide-methods passed suite-OpenCart_Suite_Version_01 -->
+                      <a href="#" panel-name="suite-OpenCart_Suite_Version_01" class="show-methods passed suite-OpenCart_Suite_Version_01"> (show)</a> <!-- show-methods passed suite-OpenCart_Suite_Version_01 -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-OpenCart_Suite_Version_01">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect" class="method navigator-link" hash-for-method="validateTotalHeaderMenuItemsCount">validateTotalHeaderMenuItemsCount</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-OpenCart_Suite_Version_01" title="com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest" class="method navigator-link" hash-for-method="validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)">validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpenCart_Suite_Version_01" title="com.opencart.qa.UnitTestScenarios.AddToCart" class="method navigator-link" hash-for-method="validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)">validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OpenCart_Suite_Version_01" title="com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect" class="method navigator-link" hash-for-method="validateTotalHeaderMenuItemsCount">validateTotalHeaderMenuItemsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OpenCart_Suite_Version_01 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,8 +141,79 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-OpenCart_Suite_Version_01" class="panel OpenCart_Suite_Version_01">
+          <div class="suite-OpenCart_Suite_Version_01-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillContactUsFormFromFooter">
+                  </a> <!-- fillContactUsFormFromFooter -->
+                  <span class="method-name">fillContactUsFormFromFooter</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content &gt; p&quot;}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c974f35981c533b1fafffc37ef78d542, findElement {using=css selector, value=#content &gt; p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\sdets\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60308/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c974f35981c533b1fafffc37ef78d542
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm.fillContactUsFormFromFooter(Footer_ContactUsForm.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_Suite_Version_01-class-failed -->
+          <div class="suite-OpenCart_Suite_Version_01-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)">
+                  </a> <!-- validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...) -->
+                  <span class="method-name">validateSuccessfulPurchaseFlow</span>
+                  <span class="parameters">(test@mail.com,Pass123456789AABB,MacBook,1.0,John,Doe,123 St,NYC,12345.0,United Kingdom,Aberdeen)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_Suite_Version_01-class-passed -->
+          <div class="suite-OpenCart_Suite_Version_01-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.opencart.qa.UnitTestScenarios.AddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)">
+                  </a> <!-- validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...) -->
+                  <span class="method-name">validateSuccessfulPurchaseFlow</span>
+                  <span class="parameters">(test@mail.com,Pass123456789AABB,MacBook,1.0,John,Doe,123 St,NYC,12345.0,United Kingdom,Aberdeen)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OpenCart_Suite_Version_01-class-passed -->
+          <div class="suite-OpenCart_Suite_Version_01-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect</span>
@@ -132,106 +227,171 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-OpenCart_Suite_Version_01-class-passed -->
+        </div> <!-- panel OpenCart_Suite_Version_01 -->
+        <div panel-name="test-xml-OpenCart_Suite_Version_01" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sdets\AppData\Local\Temp\testng-eclipse--1712964579\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sdets\eclipse-workspace\OpenCart\src\main\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;OpenCart_Suite_Version_01&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.opencart.qa.ExtentReportsListeners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OpenCart_TestPack_Version_01&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.opencart.qa.UnitTestScenarios.AddToCart&quot;/&gt;
+      &lt;class name=&quot;com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest&quot;/&gt;
+      &lt;class name=&quot;com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm&quot;/&gt;
       &lt;class name=&quot;com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- OpenCart_TestPack_Version_01 --&gt;
+&lt;/suite&gt; &lt;!-- OpenCart_Suite_Version_01 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-OpenCart_Suite_Version_01" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for OpenCart_Suite_Version_01</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">OpenCart_TestPack_Version_01 (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-OpenCart_Suite_Version_01" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for OpenCart_Suite_Version_01</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-OpenCart_Suite_Version_01" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for OpenCart_Suite_Version_01</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_OpenCart_Suite_Version_01');
+function tableData_OpenCart_Suite_Version_01() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateTotalHeaderMenuItemsCount')
 data.setCell(0, 2, 'com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect')
-data.setCell(0, 3, 22359);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 3, 23916);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateSuccessfulPurchaseFlow')
+data.setCell(1, 2, 'com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest')
+data.setCell(1, 3, 12861);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateSuccessfulPurchaseFlow')
+data.setCell(2, 2, 'com.opencart.qa.UnitTestScenarios.AddToCart')
+data.setCell(2, 3, 9163);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fillContactUsFormFromFooter')
+data.setCell(3, 2, 'com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm')
+data.setCell(3, 3, 4621);
+window.suiteTableData['OpenCart_Suite_Version_01']= { tableData: data, tableDiv: 'times-div-OpenCart_Suite_Version_01'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <div id="times-div-OpenCart_Suite_Version_01">
+              </div> <!-- times-div-OpenCart_Suite_Version_01 -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-OpenCart_Suite_Version_01" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for OpenCart_Suite_Version_01</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-OpenCart_Suite_Version_01" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-OpenCart_Suite_Version_01" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.opencart.qa.UnitTestScenarios.AddToCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validateTotalHeaderMenuItemsCount</span>
-                <span class="method-start">5212 ms</span>
+                <span class="method-name">validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)</span>
+                <span class="method-start">5084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">14546 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSuccessfulPurchaseFlow(test@mail.com, Pass123456789AABB, MacBook, 1.0, John, Doe, 123 St, NYC, 12345.0, United Kingdom, Abe...)</span>
+                <span class="method-start">18802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">31844 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillContactUsFormFromFooter</span>
+                <span class="method-start">35432 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27584 ms</span>
+                <span class="method-start">40201 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">40444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTotalHeaderMenuItemsCount</span>
+                <span class="method-start">42154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66265 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

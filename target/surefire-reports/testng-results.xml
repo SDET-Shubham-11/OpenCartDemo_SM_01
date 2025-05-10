@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-11T00:29:55 IST" name="OpenCart_Suite_Version_01" finished-at="2025-05-11T00:30:51 IST" duration-ms="55843">
+    <groups>
+    </groups>
+    <test started-at="2025-05-11T00:29:55 IST" name="OpenCart_TestPack_Version_01" finished-at="2025-05-11T00:30:51 IST" duration-ms="55843">
+      <class name="com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest@5dcd8c7a]" started-at="2025-05-11T00:30:10 IST" name="setup" finished-at="2025-05-11T00:30:13 IST" duration-ms="2991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSuccessfulPurchaseFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest@5dcd8c7a]" started-at="2025-05-11T00:30:13 IST" name="validateSuccessfulPurchaseFlow" data-provider="ValidOrderData" finished-at="2025-05-11T00:30:17 IST" duration-ms="3993" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass123456789AABB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123 St]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NYC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United Kingdom]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Aberdeen]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5afa6f2f6293d1127da21de0ca4fb365, clickElement {id=f.54F53E3444888CC46D1968E2BD81815D.d.B58C78898F45C400A48BD7B8DCBB0E00.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\sdets\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60934/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5afa6f2f6293d1127da21de0ca4fb365)] -> id: logo]
+Session ID: 5afa6f2f6293d1127da21de0ca4fb365]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5afa6f2f6293d1127da21de0ca4fb365, clickElement {id=f.54F53E3444888CC46D1968E2BD81815D.d.B58C78898F45C400A48BD7B8DCBB0E00.e.142}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\sdets\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60934/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5afa6f2f6293d1127da21de0ca4fb365)] -> id: logo]
+Session ID: 5afa6f2f6293d1127da21de0ca4fb365
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at com.opencart.qa.pages.MyAccountsPage.goToHomePage(MyAccountsPage.java:66)
+at com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest.validateSuccessfulPurchaseFlow(EndToEndPurchaseTest.java:99)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulPurchaseFlow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest@5dcd8c7a]" started-at="2025-05-11T00:30:17 IST" name="teardown" finished-at="2025-05-11T00:30:17 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest -->
+      <class name="com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm@2250b9f2]" started-at="2025-05-11T00:30:17 IST" name="setup" finished-at="2025-05-11T00:30:20 IST" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillContactUsFormFromFooter()[pri:1, instance:com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm@2250b9f2]" started-at="2025-05-11T00:30:20 IST" name="fillContactUsFormFromFooter" finished-at="2025-05-11T00:30:25 IST" duration-ms="4490" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#content > p"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22d7be3548d0c44d031b2e7a88fa3869, findElement {using=css selector, value=#content > p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\sdets\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60954/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d7be3548d0c44d031b2e7a88fa3869]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#content > p"}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22d7be3548d0c44d031b2e7a88fa3869, findElement {using=css selector, value=#content > p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\sdets\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60954/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22d7be3548d0c44d031b2e7a88fa3869
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm.fillContactUsFormFromFooter(Footer_ContactUsForm.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillContactUsFormFromFooter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm@2250b9f2]" started-at="2025-05-11T00:30:25 IST" name="tearDown" finished-at="2025-05-11T00:30:25 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm -->
+      <class name="com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect@7e3181aa]" started-at="2025-05-11T00:30:25 IST" name="setup" finished-at="2025-05-11T00:30:28 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateTotalHeaderMenuItemsCount()[pri:0, instance:com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect@7e3181aa]" started-at="2025-05-11T00:30:28 IST" name="validateTotalHeaderMenuItemsCount" finished-at="2025-05-11T00:30:50 IST" duration-ms="22091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalHeaderMenuItemsCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect@7e3181aa]" started-at="2025-05-11T00:30:50 IST" name="tearDown" finished-at="2025-05-11T00:30:51 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect -->
+      <class name="com.opencart.qa.UnitTestScenarios.AddToCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.opencart.qa.UnitTestScenarios.AddToCart@1b835480]" started-at="2025-05-11T00:29:55 IST" name="setup" finished-at="2025-05-11T00:30:01 IST" duration-ms="5264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSuccessfulPurchaseFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.qa.UnitTestScenarios.AddToCart@1b835480]" started-at="2025-05-11T00:30:01 IST" name="validateSuccessfulPurchaseFlow" data-provider="Order1" finished-at="2025-05-11T00:30:09 IST" duration-ms="8500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass123456789AABB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[123 St]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NYC]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United Kingdom]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Aberdeen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulPurchaseFlow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.opencart.qa.UnitTestScenarios.AddToCart@1b835480]" started-at="2025-05-11T00:30:09 IST" name="teardown" finished-at="2025-05-11T00:30:10 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.opencart.qa.UnitTestScenarios.AddToCart -->
+    </test> <!-- OpenCart_TestPack_Version_01 -->
+  </suite> <!-- OpenCart_Suite_Version_01 -->
+</testng-results>

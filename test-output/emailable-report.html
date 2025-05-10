@@ -8,11 +8,36 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">27,962</td><td></td><td></td></tr>
+<tr><th colspan="8">OpenCart_Suite_Version_01</th></tr>
+<tr><td><a href="#t0">OpenCart_TestPack_Version_01</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">67,532</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect</td><td><a href="#m0">validateTotalHeaderMenuItemsCount</a></td><td rowspan="1">1746887963511</td><td rowspan="1">22359</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OpenCart_Suite_Version_01</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OpenCart_TestPack_Version_01 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm</td><td><a href="#m0">fillContactUsFormFromFooter</a></td><td rowspan="1">1746902296181</td><td rowspan="1">4621</td></tr><tr><th colspan="4">OpenCart_TestPack_Version_01 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.opencart.qa.UnitTestScenarios.AddToCart</td><td><a href="#m1">validateSuccessfulPurchaseFlow</a></td><td rowspan="1">1746902265833</td><td rowspan="1">9163</td></tr><tr class="passedodd"><td rowspan="1">com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect</td><td><a href="#m2">validateTotalHeaderMenuItemsCount</a></td><td rowspan="1">1746902302903</td><td rowspan="1">23916</td></tr><tr class="passedeven"><td rowspan="1">com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest</td><td><a href="#m3">validateSuccessfulPurchaseFlow</a></td><td rowspan="1">1746902279551</td><td rowspan="1">12861</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect#validateTotalHeaderMenuItemsCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OpenCart_TestPack_Version_01</h2><h3 id="m0">com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm#fillContactUsFormFromFooter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content &gt; p&quot;}
+  (Session info: chrome=136.0.7103.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c974f35981c533b1fafffc37ef78d542, findElement {using=css selector, value=#content &gt; p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\sdets\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60308}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60308/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c974f35981c533b1fafffc37ef78d542
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.opencart.qa.UnitTestScenarios.Footer_ContactUsForm.fillContactUsFormFromFooter(Footer_ContactUsForm.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.opencart.qa.UnitTestScenarios.AddToCart#validateSuccessfulPurchaseFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr><tr class="param stripe"><td>test@mail.com</td><td>Pass123456789AABB</td><td>MacBook</td><td>1.0</td><td>John</td><td>Doe</td><td>123 St</td><td>NYC</td><td>12345.0</td><td>United Kingdom</td><td>Aberdeen</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.opencart.qa.UnitTestScenarios.CountingMenuItemsWithHoverEffect#validateTotalHeaderMenuItemsCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.opencart.qa.UnitTestScenarios.EndToEndPurchaseTest#validateSuccessfulPurchaseFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th></tr><tr class="param stripe"><td>test@mail.com</td><td>Pass123456789AABB</td><td>MacBook</td><td>1.0</td><td>John</td><td>Doe</td><td>123 St</td><td>NYC</td><td>12345.0</td><td>United Kingdom</td><td>Aberdeen</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
